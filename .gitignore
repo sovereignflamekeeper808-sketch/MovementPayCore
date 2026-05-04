@@ -1,0 +1,33 @@
+node_modules/
+cache/
+artifacts/
+coverage/
+coverage.json
+typechain/
+typechain-types/
+
+# Hardhat files
+cache/
+artifacts/
+
+# Environment
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+build/
+
+# Gas reporter
+gas-report.txt
+
+# Deployment artifacts
+deployments/
+deployment-*.json
