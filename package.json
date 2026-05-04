@@ -1,0 +1,21 @@
+{
+  "name": "movement-pay-core",
+  "version": "1.0.0",
+  "description": "1CMC RLRJ - Movement Pay Core Tether Settlement Infrastructure",
+  "author": "Robert Lee Russell Jr.",
+  "license": "UNLICENSED",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "deploy:sepolia": "npx hardhat run scripts/deploy.js --network sepolia",
+    "deploy:mainnet": "npx hardhat run scripts/deploy.js --network mainnet"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.22.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
+    "dotenv": "^16.4.0"
+  }
+}
